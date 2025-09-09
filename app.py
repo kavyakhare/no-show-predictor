@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
-import model_training
+# import model_training
 
 st.set_page_config(page_title="Healthcare No-Show Predictor", page_icon="🩺", layout="centered")
 st.title("🩺 Smart Healthcare: No-Show Prediction")
@@ -14,11 +14,7 @@ def load_model():
 
 @st.cache_resource
 def load_neighbourhoods():
-    try:
-        return joblib.load("neighbourhoods.joblib")
-    except Exception:
-        # Fallback if file missing
-        return ["JARDIM CAMBURI", "JARDIM DA PENHA"]
+    return joblib.load("neighbourhoods.joblib")
 
 model = load_model()
 neighbourhoods = load_neighbourhoods()
