@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
-# import model_training
+import model_training
 
 st.set_page_config(page_title="Healthcare No-Show Predictor", page_icon="🩺", layout="centered")
 st.title("🩺 Smart Healthcare: No-Show Prediction")
