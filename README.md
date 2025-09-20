@@ -36,19 +36,16 @@ The app is deployed on Streamlit Cloud.
 -The app shows whether the patient is likely to show up or not, and the probability of no-show.
 
 ## 📊 **Tech Stack**
+-Python
+-scikit-learn
+-pandas, numpy
+-joblib
+-Streamlit (for deployment)
 
-Python
+<img width="907" height="832" alt="image" src="https://github.com/user-attachments/assets/2a158e25-5fef-46b0-9952-07a729be475a" />
+<img width="946" height="306" alt="image" src="https://github.com/user-attachments/assets/269c3c9c-9ddd-4e76-8fce-6258330bfff4" />
+<img width="926" height="824" alt="image" src="https://github.com/user-attachments/assets/c2449a82-ecda-4169-828b-0dc43ac690ac" />
+<img width="1013" height="345" alt="image" src="https://github.com/user-attachments/assets/6f32260b-06b8-44f9-a84f-b517411fa58f" />
 
-scikit-learn
-
-pandas, numpy
-
-joblib
-
-Streamlit (for deployment)
-
-📷 Screenshots
-
-📄 License
-
+## 📄 **License**
 This project is licensed under the MIT License.
