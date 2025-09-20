@@ -16,7 +16,7 @@ def load_neighbourhoods():
     try:
         return joblib.load("neighbourhoods.joblib")
     except Exception:
-        # fallback if file missing
+        # Fallback if file missing
         return ["JARDIM CAMBURI", "JARDIM DA PENHA"]
 
 model = load_model()
