@@ -18,7 +18,7 @@ Users can enter appointment details into the app and instantly receive a predict
 [Click here to use the app](https://no-show-predictor.streamlit.app/)
 
 ## 🧠 **Dataset**
-This app is based on the Medical Appointment No Shows dataset from Kaggle
+This app is based on the Medical Appointment No Shows dataset from Kaggle.
 
 ## 🏗️ **Model Training**
 1.Data cleaned & preprocessed (dates, categorical variables, etc.).
